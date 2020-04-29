@@ -74,7 +74,7 @@ WHERE tariffID = 'T1';
 --Testing my INTEGRITY RULES (most of these should fail)
 
 --Test NOT NULL of PK in client
-INSERT INTO Client VALUES ('AAAAAAAA', 'JOEL', 'PILLAR', 'SIR', 'LZ3148', '23 MadeUp Road', '5050');
+INSERT INTO Client VALUES ('AAAAAAAA', 'SOME', 'PERSON', 'SIR', 'LZ3148', '23 MadeUp Road', '5050');
 
 --Test FOREIGN KEY integrity of ClientPhoneNo
 INSERT INTO ClientPhoneNo VALUES ('ZZZZZZZZ', '555-3699');
